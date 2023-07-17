@@ -5,7 +5,7 @@ public class Bfs {
         int src;
         int dst;
         int wt;
-
+                            /////////////////////////////tc = 0(n)
         public Edge(int s, int d, int w) {
             this.src = s;
             this.dst = d;
@@ -77,4 +77,4 @@ public class Bfs {
 
     }
 }
-    
+

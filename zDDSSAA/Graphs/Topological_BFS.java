@@ -54,6 +54,7 @@ public class Topological_BFS {
 
         /// bfs
 
+        
         while (!q.isEmpty()) {
             int cur = q.remove();
             System.out.print(cur + " ");

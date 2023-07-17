@@ -5,7 +5,7 @@
 
 // for(int i=0;i<graph.get(cur).size();i++){
 // int n = graph.get(cur).get(i);
-// if(stack[n]){
+// if(stack[n]==true){
 // return true;
 // }
 // if(!visted[n] && dfsCycle(graph,visted,stack,n)){

@@ -47,7 +47,7 @@ public class HasPath {
 
     public static boolean haspath(ArrayList<Edge> graph[], int src, int dest, boolean visted[]) {
 
-        if (src == dest) {
+        if (src == dest) { /// condition  0 == 0
             return true;
         }
         visted[src] = true;
@@ -69,5 +69,5 @@ public class HasPath {
         System.out.println(haspath(graph, 0, 6, new boolean[V]));
 
     }
-
+    
 }
